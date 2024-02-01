@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(27, 29, 30);
+  }
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    height: 80%;
+    padding: 250px;   
+    background: linear-gradient(to bottom, #800080, #4B0082);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8), /* White glowing box shadow */
+              0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+input {
+   width: 200px;
+   height: 40px;
+   /* padding: 20px; */
+   margin-bottom: 50px;
+   margin-right: 10px;
+}
+
+button {
+    display: flex;
+    width: 80px; 
+    height: 30px; 
+    border-radius: 5px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.output {
+    font-size: x-large;  
+    color:beige;    
+}
